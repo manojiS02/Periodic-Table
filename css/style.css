@@ -1,0 +1,92 @@
+body{
+  background-color: #212121;
+}
+.table-container {
+  display: flex;              /* Use Flexbox for centering */
+  justify-content: center;    /* Center horizontally */
+  align-items: center;        /* Center vertically */
+  width: 100%;                /* Full width of the container */
+  /*background-color: #f5f116;  !* Background color *!*/
+  background: linear-gradient(#af40ff, #4f46e5)
+}
+
+.table-header {
+  font-size: 50px;           /* Font size */
+  padding: 10px;             /* Padding for better appearance */
+  height: 50px;              /* Height */
+}
+
+table {
+  border-spacing: 12px;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+
+}
+
+.hydrogen {
+  border: 3px solid #00bfff; /* Neon blue border */
+  box-shadow: 0 0 8px #00bfff; /* Slight neon glow on the border */
+  color: #00bfff;
+}
+
+.nonelemental {
+  border: 3px solid #FF6EC7;
+  box-shadow: 0 0 8px #FF6EC7;
+  color: #FF6EC7;
+}
+
+.noblegas {
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 0 8px #FFFFFF;
+  color: #FFFFFF;
+}
+
+.halogens {
+  border: 3px solid #00C957;
+  box-shadow: 0 0 8px #00C957;
+  color: #00C957;
+}
+
+.alkalimetal {
+  border: 3px solid #E5D7A3;
+  box-shadow: 0 0 8px #E5D7A3;
+  color: #E5D7A3;
+}
+
+.alkalineerathmetal {
+  border: 3px solid #FF5F1F;
+  box-shadow: 0 0 8px #FF5F1F;
+  color: #FF5F1F;
+}
+
+.transitionmetal {
+  border: 3px solid #A020F0;
+  box-shadow: 0 0 8px #A020F0;
+  color: #A020F0;
+}
+
+.rareearth {
+  border: 3px solid #39FF14;
+  box-shadow: 0 0 8px #39FF14;
+  color: #39FF14;
+}
+
+.actinoid {
+  border: 3px solid #00bfff; /* Neon blue border */
+  box-shadow: 0 0 8px #00bfff; /* Slight neon glow on the border */
+  color: #00bfff;
+}
+
+.other {
+  border: 3px solid #FF073A; /* Neon blue border */
+  box-shadow: 0 0 8px #FF073A; /* Slight neon glow on the border */
+  color: #FF073A;
+}
+
+.empty {
+  border: transparent;
+}
